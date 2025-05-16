@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <div class="container bg-light pb-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram me-2"></i>Instagram</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Create New Post
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label class="form-label">Caption:</label>
+          <textarea class="form-control" placeholder="Add the caption of your post here"></textarea>
+          <button type="button" class="btn btn-light mt-2"><i class="fa-solid fa-camera"></i></button>
+          <button type="button" class="btn btn-light mt-2"><i class="fa-solid fa-location-dot"></i></button>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-gear"></i>
+  </button>
+  <ul class="dropdown-menu">
+    <li>
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Accesibility</a></li>
+      <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+    </li>
+  </ul>
+</div>
+<div class="btn-group">
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="container bg-light pb-2">
+  <ul class="nav nav-pills mb-1 justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-link active" id="pills-home-tab" data-bs-toggle="pill"
+      data-bs-target="#pills-home" type="button" role="tab"
+      aria-controls="pills-home" aria-selected="true">
+      <i class="fa-solid fa-table-cells"></i>
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-link" id="pills-profile-tab" data-bs-toggle="pill"
+      data-bs-target="#pills-profile" type="button" role="tab"
+      aria-controls="pills-profile" aria-selected="false">
+      <i class="fa-solid fa-square"></i>
+    </button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="container bg-light">
+  <div class="row g-2 mb-2">
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://static.wikia.nocookie.net/razasdeperros4226/images/e/e3/Beagle.jpg/revision/latest?cb=20170320235525&path-prefix=es" class="img-fluid object-fit-cover" alt="img1">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://images.ecestaticos.com/_I0PjTXxqLWNfLQHW8MjVfCpEaI=/2x118:2271x1397/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fe7d%2Feb1%2F555%2Fe7deb155564a41a36e3c012b1a4336f6.jpg" class="img-fluid object-fit-cover" alt="img2">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://sybaris.com.mx/wp-content/uploads/2022/07/J9kX3SGR2SB4quScUqDWzR-scaled.jpg" class="img-fluid object-fit-cover" alt="img3">
+      </div>
+    </div>
+  </div>
+  <div class="row g-2 mb-2">
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2014/05/%C2%BFC%C3%B3mo-tener-gatos-m%C3%A1s-felices_-1200x900.jpg" class="img-fluid object-fit-cover" alt="img1">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_1:1,f_auto,q_auto,g_auto/images/GettyImages/mmsport/12up_es_international_web/01jv1jmhgjz2yzrj2cme.jpg" class="img-fluid object-fit-cover" alt="img2">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://i1.wp.com/apuntesyviajes.com/wp-content/uploads/2020/02/machu_picchu_economico.jpg?fit=1600%2C1067" class="img-fluid object-fit-cover" alt="img3">
+      </div>
+    </div>
+  </div>
+  <div class="row g-2 mb-2">
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc5ip6frsnpm17a9l0ltn.jpeg" class="img-fluid object-fit-cover" alt="img1">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://www.elespectador.com/resizer/v2/O3Q3RTZ7PZCIRJQZE7J7SX73PA.jpg?auth=4a12eb47222f1729568ec6a6b4ac0cbb9410fa803a8891ce5a01031900e01a56&width=568&height=378&smart=true&quality=60" class="img-fluid object-fit-cover" alt="img2">
+      </div>
+    </div>
+    <div class="col-md-4 col-12">
+      <div class="ratio ratio-1x1">
+        <img src="https://cdn.pixabay.com/photo/2021/06/14/18/52/flower-6336720_1280.jpg" class="img-fluid object-fit-cover" alt="img3">
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="container bg-light d-flex justify-content-center align-items-center">
+      <div class="card " style="width: 40rem;">
+        <h5 class="card-header d-flex align-items-center">
+         Perrito Lindo!!
+         <span class="ms-auto"><p class="fs-6">08/26</p></span>
+        </h5>
+      <img src="https://static.wikia.nocookie.net/razasdeperros4226/images/e/e3/Beagle.jpg/revision/latest?cb=20170320235525&path-prefix=es" class="card-img-top object-fit-cover rounded-0" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">750 likes</h5>
+      <p class="card-text">Que lindo perrito.</p>
+  </div>
+</div>
+    </div>
+    <div class="container bg-light d-flex justify-content-center align-items-center mt-3">
+      <div class="card " style="width: 40rem;">
+        <h5 class="card-header d-flex align-items-center">
+         Hermosa Playa!!
+         <span class="ms-auto"><p class="fs-6">04/09</p></span>
+        </h5>
+      <img src="https://images.ecestaticos.com/_I0PjTXxqLWNfLQHW8MjVfCpEaI=/2x118:2271x1397/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fe7d%2Feb1%2F555%2Fe7deb155564a41a36e3c012b1a4336f6.jpg" class="card-img-top object-fit-cover rounded-0" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">1800 likes</h5>
+      <p class="card-text">hermosa playa cristalina.</p>
+  </div>
+</div>
+    </div>
+    <div class="container bg-light d-flex justify-content-center align-items-center mt-3">
+      <div class="card " style="width: 40rem;">
+        <h5 class="card-header d-flex align-items-center">
+         Captando imagenes en HD
+         <span class="ms-auto"><p class="fs-6">06/10</p></span>
+        </h5>
+      <img src="https://sybaris.com.mx/wp-content/uploads/2022/07/J9kX3SGR2SB4quScUqDWzR-scaled.jpg" class="card-img-top object-fit-cover rounded-0" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">1200 likes</h5>
+      <p class="card-text">las imagenes que toma mi camara son increibles.</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+
+     
+
+    <script src="https://kit.fontawesome.com/2a676e5b02.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
